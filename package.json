@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "author": "shobhit",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^2.5.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.9"
+  }
+}
