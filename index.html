@@ -13,9 +13,9 @@
     />
     <title>Shobhit Sirohi</title>
   </head>
-  <body class="px-4 text-white bg-black">
-    <div class="flex">
-      <div class="flex items-center justify-center flex-grow">
+  <body class="px-4 text-black bg-white dark:text-white dark:bg-black">
+    <div class="flex flex-col md:flex-row">
+      <div class="flex items-center justify-center flex-grow order-2 mt-6 md:order-1 md:mt-0">
         <div class="d-100 h-2/3">
           <h1 class="font-bold text-6xxl font-mont">
             Hello, I’m <br />
@@ -25,12 +25,12 @@
             I’m a Web Developer, based in India.
 
             <br />
-            Here to Remove Boring Websites Off<br />
+            Born to Remove Boring Websites Off<br />
             The Internet, One by One.
           </h2>
 
           <a
-            class="flex items-center mt-10 text-2xl font-bold hover:text-pink-400 font-mont"
+            class="flex items-center mt-10 text-2xl font-bold w-36 hover:text-pink-400 font-mont"
             href="https://github.com/shobhit-sirohi"
             target="_blank"
           >
@@ -41,8 +41,9 @@
               />
             </svg>
           </a>
+
           <a
-            class="flex items-center mt-10 text-2xl font-bold font-mont hover:text-pink-400"
+            class="flex items-center mt-10 text-2xl font-bold w-36 font-mont hover:text-pink-400"
             href="https://twitter.com/ShobhitSirohi"
             target="_blank"
           >
@@ -55,12 +56,14 @@
           </a>
         </div>
       </div>
-      <div class="hidden lg:flex">
+      <div class="hidden lg:flex md:order-2">
         <img class="h-screen" src="./images/saly-new.png" alt="cute illustration" />
       </div>
-      <div class="hidden mt-6 mr-8 md:flex">
-        <a class="text-2xl font-bold hover:text-pink-400 font-mont" href="#">Projects</a>
-        <a class="ml-6 text-2xl font-bold hover:text-pink-400 font-mont" href="#">Blog</a>
+      <div class="flex justify-end order-1 mt-6 mr-8 md:order-3">
+        <div>
+          <a class="text-2xl font-bold hover:text-pink-400 font-mont" href="#">Projects</a>
+          <a class="ml-6 text-2xl font-bold hover:text-pink-400 font-mont" href="https://sirohi.hashnode.dev" target="_blank">Blog</a>
+        </div>
       </div>
     </div>
   </body>

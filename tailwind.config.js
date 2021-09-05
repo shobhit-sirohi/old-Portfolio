@@ -1,6 +1,6 @@
 module.exports = {
   purge: ["./*.html", "./*.js"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "media", // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
@@ -11,6 +11,9 @@ module.exports = {
       },
       flex: {
         50: "30% 0 auto",
+      },
+      colors: {
+        blue1: "#188CD8",
       },
     },
   },
